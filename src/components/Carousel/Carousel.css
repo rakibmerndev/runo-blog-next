@@ -1,5 +1,30 @@
+.mySwiper {
+  position: relative;
+}
+
+.mySwiper .swiper-pagination {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  width: auto;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  .mySwiper .swiper-pagination {
+    bottom: 4rem;
+    left: 4rem;
+  }
+}
+
 .mySwiper .swiper-pagination-bullet {
   background-color: rgba(255, 255, 255, 0.5);
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  margin: 0;
 }
 
 .mySwiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
