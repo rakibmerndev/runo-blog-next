@@ -68,10 +68,9 @@ export default function Carousel() {
               <Image
                 src={item.imageUrl}
                 alt={item.title}
-                width={1920}
-                height={1080}
                 loading="eager"
                 priority
+                fill
                 className="w-full h-full object-cover"
               />
               <div className="absolute left-8 md:left-16 bottom-8 md:bottom-16">
