@@ -1,4 +1,5 @@
 import Carousel from "@/components/Carousel/Carousel";
+import EditorsPickSection from "@/components/EditorsPick/EditorsPickSection";
 import Image from "next/image";
 
 function CardSection() {
@@ -168,6 +169,7 @@ export default function Home() {
       <Carousel />
       <PopularSection />
       <BannerSection />
+      <EditorsPickSection/>
     </div>
   );
 }
