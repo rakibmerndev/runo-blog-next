@@ -19,14 +19,4 @@
   }
 }
 
-.mySwiper .swiper-pagination-bullet {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 10px;
-  height: 10px;
-  opacity: 1;
-  margin: 0;
-}
 
-.mySwiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: white;
-}

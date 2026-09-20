@@ -1,5 +1,6 @@
 import Carousel from "@/components/Carousel/Carousel";
 import EditorsPickSection from "@/components/EditorsPick/EditorsPickSection";
+import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 
 function CardSection() {
@@ -161,15 +162,14 @@ function BannerSection() {
   );
 }
 
-
-
 export default function Home() {
   return (
     <div>
       <Carousel />
       <PopularSection />
       <BannerSection />
-      <EditorsPickSection/>
+      <EditorsPickSection />
+      <Footer />
     </div>
   );
 }

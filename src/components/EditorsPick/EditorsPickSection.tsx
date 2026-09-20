@@ -55,6 +55,7 @@ function EditorCardSection() {
           <Image
             src={item.imageUrl}
             fill
+            sizes=""
             alt={item.title}
             className="object-cover"
           />
